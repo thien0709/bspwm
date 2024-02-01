@@ -1,0 +1,93 @@
+configuration {
+	modi:				"drun";
+	font:				"monospace 11";
+	display-drun: 			"";
+	sidebar-mode: 			false;
+}
+
+@theme "/dev/null"
+
+* {
+	background:			#2e3440;
+	button:				#FFF8E3;
+	white-gray:			#9DA19A;
+
+
+	background-color:		@background;
+	text-color:			@button;
+}
+
+window { 
+	width: 40%; 
+	height: 37%; 
+	border:2px; 
+	border-color:@white-gray;
+
+}
+
+prompt { enabled: false; }
+
+pfp {
+	padding:			50px;
+	width:				110px;
+	expand:				false;
+	border:				5px;
+	border-color:			@background;
+	background-image:               url("img/pika.png", height);
+}
+
+entry {
+	placeholder:			"Search";
+	expand:                         true;
+	padding:                        10px 2% 10px 2%;
+	vertical-align:			0.5;
+	background-color:               @background;
+	text-color:			@button;
+        placeholder-color:              @button;
+	margin:				29px 0 29px 0;
+	border:				2px;
+	border-color:			@white-gray;
+}
+
+inputbar {
+	children: 			[ pfp, entry ];
+	text-color:                     @button;
+	expand:                         false;
+	spacing:			32px;
+	padding:			32px 32px 0 32px;
+	background-image:		url("img/banner.jpg", width);
+}
+
+listview {
+	columns:                        2;
+	lines:	                        3;
+	cycle:                          false;
+	dynamic:                        true;
+	layout:                         vertical;
+	padding:			16px 32px 32px 32px;
+}
+
+mainbox {
+	children:                       [ inputbar, listview ];
+	spacing:                       	2%;
+	layout:				horizontal;
+}
+
+element {
+	orientation:                    vertical;
+	padding:                        1.5% 0% 1.5% 0%;
+}
+
+element-text {
+	expand:                         true;
+	vertical-align:                 0.5;
+	margin:                         0.5% 3% 0% 3%;
+	background-color:               inherit;
+        text-color:                     @button;
+}
+
+element selected { 
+	background-color: @background; 
+	border: 2px ; 
+	border-color:@white-gray;
+}

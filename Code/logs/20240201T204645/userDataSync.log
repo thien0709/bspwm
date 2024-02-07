@@ -1,0 +1,10 @@
+2024-02-01 20:46:49.879 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-01 20:46:49.879 [info] Auto Sync is enabled.
+2024-02-01 20:46:49.879 [info] Auto Sync: Suspended until auth token is available.
+2024-02-01 20:46:52.787 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/extensions
+2024-02-01 20:46:52.878 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/globalState
+2024-02-01 20:46:52.963 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/keybindings
+2024-02-01 20:46:52.988 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/profiles
+2024-02-01 20:46:52.989 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/settings
+2024-02-01 20:46:52.989 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/snippets
+2024-02-01 20:46:52.990 [info] Deleting non existing profile from backup /home/tjr/.config/Code/User/sync/tasks

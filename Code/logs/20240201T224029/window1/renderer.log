@@ -1,0 +1,8 @@
+2024-02-01 22:40:30.958 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-01 22:40:31.131 [info] Started local extension host with pid 3643.
+2024-02-01 22:40:31.307 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-01 22:40:35.951 [info] Extension host (LocalProcess pid: 3643) is unresponsive.
+2024-02-01 22:40:35.983 [info] Extension host (LocalProcess pid: 3643) is responsive.
+2024-02-01 22:40:36.174 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2024-02-01 22:40:37.246 [info] [perf] Render performance baseline is 17ms
+2024-02-01 22:40:40.528 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.

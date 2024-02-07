@@ -1,0 +1,16 @@
+2024-02-02 23:31:18.212 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-02 23:31:18.402 [info] Started local extension host with pid 11394.
+2024-02-02 23:31:18.528 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-02 23:31:21.161 [info] [perf] Render performance baseline is 16ms
+2024-02-02 23:31:21.575 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2024-02-02 23:31:32.681 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/tjr/Coding/HelloJava/hello.java 
+2024-02-02 23:31:33.055 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-02 23:31:33.159 [info] Started local extension host with pid 11677.
+2024-02-02 23:31:33.194 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-02 23:31:35.776 [info] [perf] Render performance baseline is 18ms
+2024-02-02 23:31:36.304 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2024-02-02 23:31:59.495 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-02-02 23:31:59.712 [info] Started local extension host with pid 11836.
+2024-02-02 23:31:59.750 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-02 23:32:02.514 [info] [perf] Render performance baseline is 18ms
+2024-02-02 23:32:02.899 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.

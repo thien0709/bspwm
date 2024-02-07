@@ -1,0 +1,22 @@
+2024-02-04 23:45:19.726 [info] Log level: Info
+2024-02-04 23:45:19.726 [info] Validating found git in: "git"
+2024-02-04 23:45:19.726 [info] Using git "2.43.0" from "git"
+2024-02-04 23:45:19.726 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-04 23:45:19.726 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 23:45:19.726 [info] > git rev-parse --show-toplevel [223ms]
+2024-02-04 23:45:19.726 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 23:45:19.726 [info] > git rev-parse --show-toplevel [40ms]
+2024-02-04 23:45:19.779 [info] > git rev-parse --git-dir --git-common-dir [42ms]
+2024-02-04 23:45:19.785 [info] Open repository: /home/tjr/Coding/HelloJava
+2024-02-04 23:45:19.842 [info] > git config --get commit.template [33ms]
+2024-02-04 23:45:19.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-02-04 23:45:19.937 [info] > git status -z -uall [44ms]
+2024-02-04 23:45:19.972 [info] > git config --get commit.template [18ms]
+2024-02-04 23:45:19.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-04 23:45:20.003 [info] > git status -z -uall [1ms]
+2024-02-04 23:45:20.361 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-04 23:45:23.899 [info] > git ls-files --stage -- /home/tjr/Coding/HelloJava/hello.java [1ms]
+2024-02-04 23:45:23.915 [info] > git show --textconv :hello.java [26ms]
+2024-02-04 23:45:23.916 [info] > git cat-file -s a9bc104c626522c61db75caea1b1f5bf22405139 [10ms]

@@ -1,0 +1,15 @@
+2024-02-04 23:45:17.817 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-04 23:45:17.817 [info] Auto Sync is enabled.
+2024-02-04 23:45:17.817 [info] Auto Sync: Suspended until auth token is available.
+2024-02-04 23:45:45.608 [info] Auto Sync: Triggered by Interval
+2024-02-04 23:45:45.609 [info] Sync started.
+2024-02-04 23:45:46.791 [info] Settings: Last sync resource does not exist locally.
+2024-02-04 23:45:47.871 [info] Settings: Updated remote settings
+2024-02-04 23:45:47.954 [info] Settings: Updated last synchronized settings
+2024-02-04 23:45:47.957 [info] Keybindings: Last sync resource does not exist locally.
+2024-02-04 23:45:48.191 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-04 23:45:48.193 [info] Snippets: Last sync resource does not exist locally.
+2024-02-04 23:45:48.442 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-04 23:45:48.444 [info] Tasks: Last sync resource does not exist locally.
+2024-02-04 23:45:48.597 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-04 23:45:48.600 [info] GlobalState: Last sync resource does not exist locally.

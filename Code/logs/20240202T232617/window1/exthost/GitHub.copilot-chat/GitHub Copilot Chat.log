@@ -1,0 +1,12 @@
+2024-02-02 23:26:30.969 [info] [gitExtensionService] Initializing Git extension service.
+2024-02-02 23:26:30.969 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-02-02 23:26:30.969 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-02-02 23:26:30.969 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-02-02 23:26:31.295 [info] [auth] GitHub login failed
+2024-02-02 23:26:31.296 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-02-02 23:27:19.405 [info] [gitExtensionService] Initializing Git extension service.
+2024-02-02 23:27:19.405 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-02-02 23:27:19.405 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-02-02 23:27:19.405 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-02-02 23:27:19.792 [info] [auth] GitHub login failed
+2024-02-02 23:27:19.794 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.

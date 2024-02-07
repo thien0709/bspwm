@@ -1,0 +1,14 @@
+[2024-02-02 16:27:18.422] [      4ms] [/home/tjr/Coding] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /sbin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+
+[2024-02-02 16:27:51.158] [      8ms] [/home/tjr/Coding/HelloJava] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /sbin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+

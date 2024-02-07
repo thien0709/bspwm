@@ -1,0 +1,5 @@
+[Running] cd "/home/tjr/Coding/HelloJava/" && javac hello.java && java hello
+/bin/sh: line 1: javac: command not found
+
+[Done] exited with code=127 in 0.012 seconds
+

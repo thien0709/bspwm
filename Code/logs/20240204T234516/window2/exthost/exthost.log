@@ -1,0 +1,5 @@
+2024-02-04 23:45:18.525 [info] Extension host with pid 64103 started
+2024-02-04 23:45:18.816 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-04 23:45:18.869 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-04 23:45:18.874 [info] Extension host with pid 64103 exiting with code 0
+2024-02-04 23:45:18.874 [info] Eager extensions activated

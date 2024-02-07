@@ -1,0 +1,149 @@
+2024-02-01 20:47:13.336 [info] Extension host with pid 9034 started
+2024-02-01 20:47:13.336 [info] Skipping acquiring lock for /home/tjr/.config/Code/User/workspaceStorage/ee879443d418ba4d5f1d498b2c83cc49.
+2024-02-01 20:47:13.389 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-01 20:47:13.422 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.423 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.428 [info] ExtensionService#_doActivateExtension icrawl.discord-vscode, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.435 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.448 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.460 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-01 20:47:13.509 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.523 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-01 20:47:13.626 [info] Eager extensions activated
+2024-02-01 20:47:13.655 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.692 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.696 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.715 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.716 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.733 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.741 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.783 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.811 [info] ExtensionService#_doActivateExtension hoovercj.vscode-power-mode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.818 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.821 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.823 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:13.842 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 20:47:14.530 [error] TypeError: Cannot read properties of null (reading 'write')
+    at IPCTransport.send (/home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24881)
+    at /home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24968
+    at new Promise (<anonymous>)
+    at IPCTransport.close (/home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:24925)
+    at RPCClient.destroy (/home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:18626)
+    at login (/home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:149260)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at activate (/home/tjr/.vscode/extensions/icrawl.discord-vscode-5.8.0/dist/extension.js:2:151363)
+    at u.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+    at u.m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+    at u.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)
+2024-02-01 20:47:16.064 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-02-01 20:47:42.150 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-01 20:47:42.177 [error] Canceled: Canceled
+    at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:40655)
+    at h (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:45702)
+    at ActionRunners._updateContextKeys (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:17573)
+    at s (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16017)
+    at RegisteredActionRunner.unregister (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16160)
+    at RegisteredActionRunner.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:14813)
+    at ActionRunners.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:15600)
+    at /home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19287
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19269)
+    at s (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-01 20:47:42.177 [error] Canceled: Canceled
+    at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:40655)
+    at h (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:45702)
+    at ActionRunners._updateContextKeys (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:17573)
+    at s (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16017)
+    at RegisteredActionRunner.unregister (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16160)
+    at RegisteredActionRunner.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:14813)
+    at ActionRunners.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:15600)
+    at /home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19287
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19269)
+    at s (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-01 20:47:42.177 [error] Canceled: Canceled
+    at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at w (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:40655)
+    at h (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1077:45702)
+    at ActionRunners._updateContextKeys (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:17573)
+    at s (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16017)
+    at RegisteredActionRunner.unregister (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:16160)
+    at RegisteredActionRunner.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:14813)
+    at ActionRunners.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:663:15600)
+    at /home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19287
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/tjr/.vscode/extensions/eamodio.gitlens-14.7.0/dist/gitlens.js:1037:19269)
+    at s (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+    at Array.map (<anonymous>)
+    at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+    at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+    at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+    at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+    at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-01 20:47:42.178 [error] Canceled: Canceled
+    at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+    at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+    at Proxy.P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+    at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+    at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+    at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+    at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+    at rejectionHandler (/home/tjr/.vscode/extensions/github.copilot-1.156.0/extension/src/extension.ts:126:22)
+    at /home/tjr/.vscode/extensions/github.copilot-1.156.0/extension/src/extension.ts:180:17 setContext undefined
+2024-02-01 20:47:42.179 [info] Extension host with pid 9034 exiting with code 0

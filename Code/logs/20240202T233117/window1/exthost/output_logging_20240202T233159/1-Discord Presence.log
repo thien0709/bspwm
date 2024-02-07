@@ -1,0 +1,6 @@
+[02/02/2024 23:32:00 - INFO] Discord Presence activated
+[02/02/2024 23:32:00 - INFO] Creating discord-rpc client
+[02/02/2024 23:32:00 - ERROR] Encountered following error while trying to login:
+Error: Could not connect
+[02/02/2024 23:32:00 - DEBUG] Loading git extension
+[02/02/2024 23:32:00 - TRACE] Git extension not activated, activating...

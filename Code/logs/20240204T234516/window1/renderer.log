@@ -1,0 +1,6 @@
+2024-02-04 23:45:17.240 [info] Started local extension host with pid 64049.
+2024-02-04 23:45:18.234 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2024-02-04 23:45:18.436 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-04 23:45:20.216 [info] [perf] Render performance baseline is 18ms
+2024-02-04 23:45:45.600 [info] Settings Sync: Updating due to change in sessions
+2024-02-04 23:45:45.600 [info] Settings Sync: Updated current session 5333b6f67f0d8fd1
